@@ -15,7 +15,7 @@
       <div class="wrapper-nav">
         <nav class="nav">
           <div class="logo">
-            <img src="img/logo.svg" alt="logo" />
+            <img src="/img/logo.svg" alt="logo" />
             <p class="logo-subtext">Дома в <br />Аргентине</p>
           </div>
           <div class="navbar">
@@ -36,13 +36,13 @@
         <div class="wrapper-contact-header">
           <div class="wrapper-whats-app">
             <div class="icon-whatsapp">
-              <img src="img/WhatsApp White.svg" alt="icon-whats-app" />
+              <img src="/img/WhatsApp White.svg" alt="icon-whats-app" />
             </div>
             <a href="">+7 911 443 09 79</a>
           </div>
           <div class="wrapper-number">
             <div class="icon-phone">
-              <img src="img/phone.svg" alt="phone" />
+              <img src="/img/phone.svg" alt="phone" />
             </div>
             <ul>
               <li><a href="">+54 9 11 3363 0896</a></li>
@@ -60,28 +60,28 @@
       <div class="wrapper-about">
         <div class="card-about card-about-1 element-animation">
           <div class="wrapper-icon-about">
-            <img src="img/fountain.svg" alt="icon-fountain" />
+            <img src="/img/fountain.svg" alt="icon-fountain" />
           </div>
           <span class="text-card-about">Выбор жилого района</span>
         </div>
         <div class="card-about card-about-2 element-animation">
           <div class="wrapper-icon-about">
-            <img src="img/house.svg" alt="icon-fountain" />
+            <img src="/img/house.svg" alt="icon-fountain" />
           </div>
           <span class="text-card-about">Закрытые охраняемые поселки</span>
         </div>
         <div class="logo-icon">
-          <img src="img/logo.svg" alt="logo" />
+          <img src="/img/logo.svg" alt="logo" />
         </div>
         <div class="card-about card-about-3 element-animation">
           <div class="wrapper-icon-about">
-            <img src="img/fountain.svg" alt="icon-fountain" />
+            <img src="/img/fountain.svg" alt="icon-fountain" />
           </div>
           <span class="text-card-about">Бассейны, искуственные водоемы</span>
         </div>
         <div class="card-about card-about-4 element-animation">
           <div class="wrapper-icon-about">
-            <img src="img/bench.svg" alt="icon-fountain" />
+            <img src="/img/bench.svg" alt="icon-fountain" />
           </div>
           <span class="text-card-about">Благоустройство на выш выбор</span>
         </div>
@@ -140,25 +140,39 @@
                       />
 
                       <label for="land-area"> Желаемая площадь участка?</label>
-                      <div class="range">
-                        <span class="range-span">100</span>
+                      <div class="range-1">
+                        <span class="range-span">2500</span>
                         <input
                           type="range"
                           id="land-area"
                           class="land-area"
-                          min="100"
-                          max="200"
+                          min="300"
+                          max="5000"
                         />
                       </div>
                       <label for="house-area">Желаемая площадь дома?</label>
-                      <input type="range" id="house-area" />
+                      <div class="range-2">
+                        <span class="range-span-2">250</span>
+                        <input
+                          type="range"
+                          id="house-area"
+                          class="house-area"
+                          min="50"
+                          max="500"
+                        />
+                      </div>
 
                       <label for="pool-area">Желаемая площадь бассейна?</label>
-                      <input
-                        type="number"
-                        id="pool-area"
-                        placeholder="от 30м до 100м"
-                      />
+                      <div class="range-3">
+                        <span class="range-span-3">30</span>
+                        <input
+                          type="range"
+                          id="pool-area"
+                          class="pool-area"
+                          min="10"
+                          max="50"
+                        />
+                      </div>
 
                       <label for="matirial">Материалы дома?</label>
                       <input
@@ -168,16 +182,25 @@
                       />
 
                       <h3>Комплектация дома</h3>
-                      <input
-                        type="checkbox"
-                        id="complect"
-                        class="full-complect"
-                      />
-                      <input
-                        type="checkbox"
-                        id="complect"
-                        class="no-full-complect"
-                      />
+                      <label class="complect-house">
+                        <input
+                          type="radio"
+                          name="complect"
+                          class="full-complect"
+                          value="1"
+                        />
+                        С мебелью
+                      </label>
+
+                      <label class="complect-house last-complect-house">
+                        <input
+                          type="radio"
+                          name="complect"
+                          class="no-full-complect"
+                          value="2"
+                        />
+                        Без мебели
+                      </label>
 
                       <label for="area">Желаемый район </label>
                       <input
@@ -244,7 +267,7 @@
     <footer class="foother" id="foother">
       <div class="wrapper-info">
         <div class="logo foother-logo">
-          <img src="img/logo.svg" alt="logo" />
+          <img src="/img/logo.svg" alt="logo" />
           <p class="logo-subtext foother-logo-subtext">
             Строительство домов в <br />Аргентине
           </p>
@@ -271,23 +294,23 @@
           <ul>
             <li>
               <a href=""
-                ><img src="img/whatsapp yellow.svg" alt="WhatsApp"
+                ><img src="/img/whatsapp yellow.svg" alt="WhatsApp"
               /></a>
             </li>
             <li>
-              <a href=""><img src="img/vk.svg" alt="Vk" /></a>
+              <a href=""><img src="/img/vk.svg" alt="Vk" /></a>
             </li>
             <li>
-              <a href=""><img src="img/facebook.svg" alt="facebook" /></a>
+              <a href=""><img src="/img/facebook.svg" alt="facebook" /></a>
             </li>
             <li>
-              <a href=""><img src="img/Inst.svg" alt="Instagram" /></a>
+              <a href=""><img src="/img/Inst.svg" alt="Instagram" /></a>
             </li>
           </ul>
         </div>
       </div>
     </footer>
-    <script src="scrypt/range.js"></script>
-    <script src="scrypt/animation.js"></script>
+    <script src="/scrypt/range.js"></script>
+    <script src="/scrypt/animation.js"></script>
   </body>
 </html>
