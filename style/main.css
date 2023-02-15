@@ -243,7 +243,7 @@ body {
 .card-project {
   width: 530px;
   height: 320px;
-  background-image: url(img/project-1.jpg);
+  background-image: url(../img/project-1.jpg);
   background-repeat: no-repeat;
   color: #fff;
   font-family: "Raleway";
@@ -264,7 +264,7 @@ body {
 }
 .card-project-2,
 .card-project-4 {
-  background-image: url(img/project-2.jpg);
+  background-image: url(../img/project-2.jpg);
   background-repeat: no-repeat;
 }
 .card-project-1 {
@@ -286,7 +286,7 @@ body {
 }
 
 .wrapper-question-block {
-  background-image: url(img/city.jpg);
+  background-image: url(../img/city.jpg);
   background-repeat: no-repeat;
   width: 100%;
   height: 560px;
