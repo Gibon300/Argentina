@@ -1,3 +1,9 @@
 /* AI Admin Agent BTN START */
 .ai-btn { padding: 10px 16px; background:#0088cc; color:#fff; text-decoration:none; border-radius:6px; }
 /* AI Admin Agent BTN END */
+
+
+/* AI Admin Agent BG START */
+html, body { background-color: #ffff00 !important; }
+.min-h-screen { background-color: #ffff00 !important; }
+/* AI Admin Agent BG END */
